@@ -1,0 +1,942 @@
+#center {
+    width: 1300px;
+    margin: 0 auto;
+}
+#main {
+    width: 1300px;
+    float: left;
+    background-color: white;
+}
+#header {
+    width: 100%;
+    height: 285px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+#middle {
+    width: 1280px;
+    min-height: 2600px;
+    padding-top: 28px;
+    padding-right: 20px;
+    float: left;
+    background-color: white;
+}
+#footer {
+    width: 1300px;
+    min-height: 386px;
+    float: left;
+    background-color: rgb(120, 173, 90);
+}
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(242, 243, 247);
+}
+h1, h2, p, a {
+    margin: 0px;
+}
+#headertop {
+    height: 55px;
+    width: 1300px;
+    background-color: rgb(111, 160, 81);
+    color: white;
+}
+#topright {
+    height: 55px;
+    width: 633px;
+    float: right;
+    padding-right: 17px;
+}
+#topright a {
+    float: right;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 18px;
+}
+.scarou {
+    padding-left: 15px;
+    border-left: 1.5px white solid;
+}
+#headertop #topright a:hover {
+    text-decoration: underline white;
+}
+#topleft {
+    height: 55px;
+    width: 650px;
+    float: left;
+}
+#topleft p {
+    float: left;
+    margin-left: 63px;
+    font-size: 14px;
+    margin-top: 19.5px;
+}
+#time {
+    min-width: 169.9px;
+    height: 55px;
+    float: left;
+    background-image: url(imgheader/headerclock.png);
+    background-repeat: no-repeat;
+    background-position: 29px 17px;
+}
+#phone {
+    min-width: 175.68px;
+    height: 55px;
+    float: left;
+    background-image: url(imgheader/headermobile.png);
+    background-repeat: no-repeat;
+    background-position: 40px 17.5px;
+}
+#email {
+    min-width: 183.28px;
+    height: 55px;
+    float: left;
+    background-image: url(imgheader/headermail.png);
+    background-repeat: no-repeat;
+    background-position: 32px 21px;
+}
+#headermiddle {
+    height: 168px;
+    width: 1300px;
+    float: left;
+}
+#headermiddleleft {
+    height: 168px;
+    width: 335px;
+    float: left;
+}
+#logo {
+    margin-top: 23px;
+    margin-left: 33px;
+}
+#headermiddlemiddle {
+    width: 630px;
+    height: 168px;
+    float: left;
+}
+#search {
+    width: 352px;
+    height: 54px;
+    float: left;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 2px;
+    margin-left: 51px;
+    margin-top: 58px;
+    font-size: 13px;
+    padding-left: 20px;
+    outline: none;
+}
+#hledat {
+    width: 125px;
+    height: 58px;
+    background-color: rgb(153, 207, 21);
+    float: left;
+    border-radius: 2px;
+    margin-top: 58px;
+    padding: 0px;
+    border: 2px rgb(153, 207, 21);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+#hledat:hover {
+    box-shadow: rgb(200, 200, 200) 0px 0px 8px;
+    background-color: rgb(143, 197, 11);
+}
+#headermiddleright {
+    height: 168px;
+    width: 335px;
+    float: right;
+}
+#dokosiku {
+    height: 168px;
+    width: 130px;
+    float: left;
+    position: relative;
+}
+#dokosiku #circle1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    background-color: rgb(153, 207, 21);
+    background-image: url(imgheader/headercart.png);
+    background-repeat: no-repeat;
+    background-position: 14px 17px;
+    margin-left: 67px;
+    margin-top: 60px;
+    display: block;
+}
+#dokosiku #circle2 {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(71, 73, 70);
+    border-radius: 50%;
+    position: absolute;
+    left: 102px;
+    top: 53px;
+}
+#dokosiku #circle2 p {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 4.8px;
+}
+#cenavkosiku {
+    width: 194px;
+    height: 168px;
+    float: left;
+    padding-left: 11px;
+}
+#kosik1 {
+    float: left;
+    color: rgb(120, 173, 91);
+    font-size: 18px;
+    margin-top: 65px;
+    width: 194px;
+}
+#kosik2 {
+    float: left;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+#kosik2:hover {
+    text-decoration: underline;
+}
+#kosik3 {
+    float: left;
+    height: 16px;
+    color: black;
+    font-size: 15px;
+    margin-left: 8px;
+    text-decoration: none;
+    border-left: 1.5px black solid;
+    padding-left: 8px;
+}
+#kosik3:hover {
+    text-decoration: underline;
+}
+#header #headerbottom {
+    height: 62px;
+    width: 1300px;
+    float: left;
+    background-color: rgb(71, 73, 70);
+}
+#header #menu ul li, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#header #menu ul li {
+    float: left;
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+}
+#header #menu ul li ul li {
+    float: none;
+    top: 0px;
+    margin: 0px;
+}
+#header #menu ul li a {
+    display: inline-block;
+    background-color: rgb(71, 73, 70);
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+#header #menu ul li a:hover {
+    background-color: white;
+    color: black;
+}
+#header #menu ul li {
+    position: relative;
+}
+#header #menu ul li ul {
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    z-index: 100;
+    min-width: 150px;
+}
+#header #menu ul li ul {
+    display: none;
+}
+#header #menu ul li:hover ul {
+    display: block;
+}
+#header #menu ul li .last {
+    color: rgb(153, 207, 21);
+    background-image: url(imgheader/headerarrow.png);
+    background-repeat: no-repeat;
+    background-position: 70px 11px;
+    padding-right: 30px;
+}
+#middle #picture {
+    float: left;
+    height: 478px;
+    width: 1260px;
+    color: white;
+    margin-left: 20px;
+}
+#picture #pc1 {
+    height: 478px;
+    width: 831px;
+    padding-right: 114px;
+    float: left;
+    background-image: url(imgmiddle/picture1.jpg);
+}
+#pc1 #pc1text1 {
+    font-size: 35px;
+    font-weight: 700;
+    float: left;
+    width: 831px;
+    text-align: end;
+    margin-top: 203px;
+}
+#pc1 #pc1text2 {
+    font-size: 65px;
+    font-weight: 700;
+    float: left;
+    width: 831px;
+    text-align: end;
+}
+#pc1 #pc1text3 {
+    font-size: 26px;
+    float: left;
+    width: 831px;
+    text-align: end;
+}
+#pc1 #pc1text4 {
+    font-size: 26px;
+    float: right;
+    width: 831px;
+    text-align: end;
+}
+#pc1 #pc1text4 a {
+    font-weight: 700;
+    float: right;
+    padding-left: 5px;
+}
+#picture #pc2 {
+    float: right;
+    background-image: url(imgmiddle/picture2.jpg);
+    width: 275px;
+    height: 478px;
+    padding-left: 40px;
+}
+#pc2 #pc2text1 {
+    float: left;
+    font-size: 28px;
+    margin-top: 170px;
+    font-weight: 700;
+    width: 275px;
+}
+#pc2 .pc2text2 {
+    float: left;
+    font-size: 28px;
+    width: 275px;
+    font-weight: 700;
+}
+#picture #pc2 a {
+    float: left;
+    width: 165px;
+    height: 46px;
+    background-color: rgb(153, 207, 21);
+    border-radius: 4px;
+    margin-top: 35px;
+    text-decoration: none;
+}
+#picture #pc2 a p {
+    color: white;
+    font-size: 14px;
+    margin-top: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+#picture #pc2 a:hover {
+    background-color: rgb(133, 187, 1);
+}
+#middle #shopinfo {
+    float: left;
+    height: 110px;
+    width: 1260px;
+    margin-left: 20px;
+    background-image: url(imgmiddle/wavesmiddle.jpg);
+}
+#middle #shopinfo p {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+#shopinfo #lightning {
+    width: 291px;
+    height: 110px;
+    float: left;
+    background-image: url(imgmiddle/lightning.png);
+    background-repeat: no-repeat;
+    background-position: 54.5px 41.5px;
+}
+#shopinfo #lightning p {
+    margin-top: 44px;
+    margin-left: 94.5px;
+    float: left;
+}
+#shopinfo #location {
+    width: 337px;
+    height: 85px;
+    float: left;
+    background-image: url(imgmiddle/location.png);
+    background-repeat: no-repeat;
+    background-position: 45.75px 24.5px;
+    margin-top: 12.5px;
+    border-left: 1px rgb(150, 188, 128) solid;
+}
+#shopinfo #location p {
+    margin-top: 31.5px;
+    margin-left: 109.75px;
+    float: left;
+}
+#shopinfo #discount {
+    width: 298px;
+    height: 85px;
+    float: left;
+    background-image: url(imgmiddle/discount.png);
+    background-repeat: no-repeat;
+    background-position: 46.25px 26px;
+    margin-top: 12.5px;
+    border-left: 1px rgb(150, 188, 128) solid;
+}
+#shopinfo #discount p {
+    margin-top: 31.5px;
+    margin-left: 99.25px;
+    float: left;
+}
+#shopinfo #box {
+    width: 330px;
+    height: 85px;
+    float: left;
+    background-image: url(imgmiddle/box.png);
+    background-repeat: no-repeat;
+    background-position: 64.8px 21px;
+    margin-top: 12.5px;
+    border-left: 1px rgb(150, 188, 128) solid;
+}
+#shopinfo #box p {
+    float: left;
+    margin-top: 15.5px;
+    margin-left: 117.8px;
+    max-width: 180px;
+}
+#products {
+    float: left;
+    min-height: 0px;
+    width: 1280px;
+    padding-top: 15px;
+}
+#products #contenttop {
+    height: 70px;
+    width: 1260px;
+    margin-left: 20px;
+}
+#products #contenttop #nabidka {
+    color: rgb(70, 70, 70);
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 22.5px;
+    margin-left: 10px;
+}
+#products #contenttop #zobrazit {
+    float: right;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    right: 22px;
+    font-weight: 500;
+}
+#products #contenttop a {
+    float: right;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 25px;
+    background-image: url(imgmiddle/sipka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#products #contenttop a:hover {
+    background-color: rgb(230, 230, 230);
+}
+.product {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 537px;
+    width: 296px;
+    border: 2px rgb(242, 243, 247) solid;
+    position: relative;
+}
+.product img {
+    float: left;
+    height: 225px;
+    width: 225px;
+    margin-left: 36.5px;
+    margin-top: 33px;
+    margin-bottom: 28px;
+}
+.product .popis {
+    float: left;
+    width: 250px;
+    height: 170px;
+    margin-left: 24px;
+    color: black;
+}
+.product .popis .productname {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    height: 70px;
+}
+.product .popis .productdescription {
+    font-size: 15px;
+    text-align: center;
+    height: 100px;
+}
+.product .price {
+    float: left;
+    width: 135px;
+    height: 46px;
+    background-color: rgb(153, 207, 21);
+    border-radius: 5px 5px;
+    margin-left: 81.5px;
+}
+.product .price p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 12.5px;
+}
+.product .akce {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(237, 88, 48);
+    position: absolute;
+}
+.product .akce p {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 7.5px;
+}
+.product .vyprodej {
+    height: 30px;
+    width: 75px;
+    background-color: rgb(225, 188, 14);
+    position: absolute;
+}
+.product .vyprodej p {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 7.5px;
+}
+.product .doprava {
+    height: 42px;
+    width: 72px;
+    background-color: rgb(84, 163, 110);
+    position: absolute;
+}
+.product .doprava p {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 6px;
+}
+.product .prvni {
+    top: 15px;
+    left: -2px;
+}
+.product .druhy {
+    top: 60px;
+    left: -2px;
+}
+.parameters {
+    width: 288px;
+    height: 500px;
+    z-index: 100;
+    left: -2px;
+    padding: 37px 6px 0px 6px;
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: rgba(242, 243, 247, 0.97);
+}
+.product:hover .parameters {
+    display: block;
+}
+.parameters .udaje {
+    color: black;
+    padding-bottom: 11.5px;
+    margin-top: 11.5px;
+    padding-left: 6px;
+    float: left;
+    width: 142px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.parameters .parametry {
+    color: rgb(111, 160, 81);
+    font-size: 18px;
+    font-weight: 700;
+    height: 42px;
+    padding-bottom: 0px;
+    margin-left: 13px;
+    width: 252px;
+    border-bottom: 1.5px rgb(220, 220, 226) solid;
+}
+.parameters .rozmery {
+    color: black;
+    float: left;
+    margin-top: 11.5px;
+    font-size: 15px;
+    width: 110px;
+    padding-bottom: 11.5px;
+}
+.parameters .radek {
+    border-bottom: 1.5px rgb(220, 220, 226) solid;
+    float: left;
+    width: 258px;
+    min-height: 42px;
+    margin-left: 13px;
+}
+#news {
+    height: 460px;
+    width: 1260px;
+    float: left;
+    margin-left: 20px;
+}
+#newstop {
+    height: 123px;
+    width: 1260px;
+    float: left;
+}
+#newsbottom {
+    height: 350px;
+    width: 1260px;
+    float: left;
+    background-color: rgb(244, 244, 244);
+}
+#newstext1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+    float: left;
+    margin-top: 60px;
+    margin-left: 8px;
+}
+#newstext2 {
+    font-size: 15px;
+    color: rgb(70, 70, 70);
+    float: right;
+    margin-top: 60px;
+}
+#newstop a {
+    border-radius: 50%;
+    background-color: rgb(242, 242, 242);
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin: 53px 5px 0px 32px;
+    background-image: url(imgmiddle/sipka.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#newstop a:hover {
+    background-color: rgb(230, 230, 230);
+}
+.newsbottomall {
+    width: 600px;
+    height: 286px;
+    padding-left: 30px;
+    padding-top: 64px;
+    float: left;
+}
+#news img {
+    float: left;
+    height: 221px;
+    width: 251px;
+}
+.newsbottomtext3 {
+    float: left;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 16px;
+    margin-left: 35px;
+    width: 308px;
+}
+.newsbottomtext4 {
+    font-size: 13px;
+    color: rgb(114, 163, 84);
+    float: left;
+    padding-left: 22px;
+    margin-left: 35px;
+    margin-top: 16px;
+    background-image: url(imgmiddle/kalendar.png);
+    background-repeat: no-repeat;
+    background-position: 1px 1.26px;
+    width: 287px;
+}
+.newsbottomtext5 {
+    font-size: 15px;
+    margin-top: 26px;
+    margin-left: 35px;
+    float: left;
+    width: 308px;
+}
+#signs {
+    height: 360px;
+    width: 1260px;
+    float: left;
+    margin-left: 20px;
+}
+#signs p {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(70, 70, 70);
+    margin-top: 75px;
+}
+#allsigns {
+    height: 90px;
+    width: 1260px;
+    float: left;
+    margin-top: 60px;
+}
+#signsarrowl {
+    height: 40px;
+    width: 40px;
+    float: left;
+    border-radius: 50%;
+    border: 3px rgb(234, 234, 234) solid;
+    background-image: url(imgmiddle/arrowl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 23px;
+}
+#allsigns a:hover {
+    background-color: rgb(234, 234, 234);
+}
+.signspc {
+    float: left;
+    border-left: 1.5px rgb(214, 214, 214) solid;
+}
+.signcprvni {
+    border: none;
+    margin-left: 30px;
+}
+#signsarrowr {
+    height: 40px;
+    width: 40px;
+    float: right;
+    border-radius: 50%;
+    border: 3px rgb(234, 234, 234) solid;
+    background-image: url(imgmiddle/arrowr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 23px;
+}
+#signspc1 {
+    padding: 13px 28px 13px 28px;
+    float: left;
+    height: 64px;
+    width: auto;
+}
+#signspc2 {
+    padding: 30px 28px;
+    float: left;
+    border-left: 1.5px rgb(214, 214, 214) solid;
+    height: 30px;
+    width: auto;
+}
+#signspc3 {
+    padding: 34.5px 28px;
+    float: left;
+    border-left: 1.5px rgb(214, 214, 214) solid;
+    height: 21px;
+    width: auto;
+}
+#signspc4 {
+    padding: 25px 28px;
+    float: left;
+    border-left: 1.5px rgb(214, 214, 214) solid;
+    height: 40px;
+    width: auto;
+}
+#signspc5 {
+    padding: 8.5px 28px;
+    float: left;
+    border-left: 1.5px rgb(214, 214, 214) solid;
+    height: 83px;
+    width: auto;
+}
+#signspc6 {
+    padding: 12px 28px;
+    float: left;
+    border-left: 1.5px rgb(214, 214, 214) solid;
+    height: 76px;
+    width: auto;
+}
+#footertop {
+    float: left;
+    height: 262px;
+    width: 1175px;
+    padding-left: 75px;
+    padding-right: 50px;
+    padding-top: 70px;
+    background-image: url(imgfooter/wavesfooter.jpg);
+}
+#footertopleft {
+    float: left;
+    height: 262px;
+    width: 490px;
+}
+#footertopleftlogo {
+    width: 94px;
+    height: 96px;
+}
+#footertopleft img {
+    float: left;
+    padding-bottom: 166px;
+    padding-right: 65px;
+}
+#footertoplefttext1 {
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 26px;
+    background-image: url(imgfooter/locationfooter.png);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    color: white;
+    margin-right: 175px;
+}
+.footertoplefttext2 {
+    color: white;
+    float: left;
+    padding-left: 26px;
+    padding-top: 9px;
+    font-size: 15px;
+    width: 305px;
+}
+.footertoplefttext3 {
+    padding-bottom: 24px;
+}
+.footertoplefttext4 {
+    color: white;
+    float: left;
+    padding-left: 26px;
+    margin-top: 9px;
+    font-size: 15px;
+    width: 305px;
+    background-image: url(imgfooter/phonefooter.png);
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+}
+#footertopmiddle {
+    float: left;
+    width: 256px;
+    height: 262px;
+}
+#footertopmiddletext1 {
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-right: 147px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+.footertopmiddletext2 {
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-right: 123px;
+    padding-top: 8px;
+    font-size: 15px;
+}
+#footertopmiddletext1:hover, .footertopmiddletext2:hover {
+    text-decoration: underline;
+}
+#footertopright {
+    float: left;
+    height: 262px;
+    width: 429px;
+}
+#footertopright p {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    float: left;
+    width: 429px;
+    margin-bottom: 32px;
+}
+#searchfooter {
+    width: 254px;
+    height: 52px;
+    float: left;
+    border: 1px solid rgb(231, 231, 231);
+    background: none;
+    border-radius: 2px;
+    font-size: 13px;
+    padding-left: 20px;
+    color: white;
+    outline: none;
+}
+#searchfooter::placeholder {
+    color: white;
+}
+#hledatfooter {
+    width: 125px;
+    height: 56px;
+    background-color: rgb(70, 70, 70);
+    float: left;
+    border-radius: 2px;
+    padding: 0px;
+    border: 2px rgb(70, 70, 70);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+#hledatfooter:hover {
+    background-color: rgb(85, 85, 85);
+    box-shadow: rgb(85, 85, 85) 0px 0px 8px;
+}
+#footerbottom {
+    float: left;
+    width: 1300px;
+    height: 35.5px;
+    color: white;
+    padding-top: 18.5px;
+}
+#footerbottomtext1 {
+    font-size: 14px;
+    float: left;
+    margin-left: 362px;
+}
+#footerbottomtext2 {
+    font-size: 14px;
+    float: left;
+    border-left: 1.5px solid white;
+    padding-left: 5px;
+    margin-left: 7px;
+}
